@@ -11,7 +11,7 @@
         float: left;
         background-color: transparent;
         position: relative;
-        padding: 1%;
+        padding: 0px 12px 0px 12px;
     }
     .col-lg-1 {
         width: 8.33%;
@@ -38,7 +38,7 @@
         float: left;
         background-color: transparent;
         position: relative;
-        padding: 1%;
+        padding: 12px 12px 12px 12px;
     }
     .col-md-6 {
         width: 50%;
@@ -54,7 +54,7 @@
         width: 100%;
         background-color: transparent;
         position: relative;
-        padding: 1% 5% 1% 5%;
+        padding: 12px 60px 12px 60px;
     }
 }
 
