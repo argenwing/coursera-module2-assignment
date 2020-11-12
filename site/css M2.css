@@ -1,0 +1,111 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+.row {
+    width: 100%;
+}
+
+@media (min-width: 992px) {
+    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6 {
+        float: left;
+        background-color: transparent;
+        position: relative;
+        padding: 1%;
+    }
+    .col-lg-1 {
+        width: 8.33%;
+    }
+    .col-lg-2 {
+        width: 16.66%;
+    }
+    .col-lg-3 {
+        width: 25%;
+    }
+    .col-lg-4 {
+        width: 33.33%;
+    }
+    .col-lg-5 {
+        width: 41.66%;
+    }
+    .col-lg-6 {
+        width: 50%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6, .col-md-12 {
+        float: left;
+        background-color: transparent;
+        position: relative;
+        padding: 1%;
+    }
+    .col-md-6 {
+        width: 50%;
+    }
+    .col-md-12 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .col-sm-12 {
+        float: left;
+        width: 100%;
+        background-color: transparent;
+        position: relative;
+        padding: 1% 5% 1% 5%;
+    }
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 175%;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#space {
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    position: relative;
+    background-color: slategray;
+}
+
+region {
+    font-size: 125%;
+    border: 1px solid black;
+    float: right;
+    margin: 0px;
+    padding: 5px 25px 5px 25px;
+}
+
+#title1 {
+    background-color: sandybrown;
+    font-family: Arial;
+    color: darkslategray;
+}
+
+#title2 {
+    background-color: salmon;
+    font-family: Arial;
+    color: darkslategray;
+}
+
+#title3 {
+    background-color: gold;
+    font-family: Arial;
+    color: darkslategray;
+}
+
+
+p {
+    width: 90%;
+    height: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Arial;
+    color: aliceblue;
+    clear: both;
+}
