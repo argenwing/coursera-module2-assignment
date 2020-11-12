@@ -77,7 +77,7 @@ region {
     font-size: 125%;
     border: 1px solid black;
     float: right;
-    margin: 0px;
+    margin: -1px -1px 0px 0px;
     padding: 5px 25px 5px 25px;
 }
 
